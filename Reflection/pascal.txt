@@ -1,0 +1,9 @@
+The binominal coffecients table can be done in 3 ways. 
+1)recursion 2)dynamic with 2d array 3)dynamic with 1D array
+
+when to use what?
+recursion v/s 2D dynamic: Both of these consume the same amount of memory and in that case they are more or less the same. BUT 2D dynamic is better as it stores all the values and the values can be calculated using the pervious array values.
+
+2D dynamic v/s 1D dynamic:
+Its not the question of what is better here.If all the previous values are not required i.e only a particular row of values(binomial
+cofficients) are required then we go for 1D array.  
