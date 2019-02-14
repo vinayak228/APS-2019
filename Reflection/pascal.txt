@@ -6,4 +6,4 @@ recursion v/s 2D dynamic: Both of these consume the same amount of memory and in
 
 2D dynamic v/s 1D dynamic:
 Its not the question of what is better here.If all the previous values are not required i.e only a particular row of values(binomial
-cofficients) are required then we go for 1D array.  
+cofficients) are required then we go for 1D array. Else if all the values of the tree is required then we go for 2D array dynamic programming.
