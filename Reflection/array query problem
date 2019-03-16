@@ -1,0 +1,11 @@
+Different approaches to deal with array query problem.
+
+1) Look up table : Works with the mechanism of processing the array into a key-Value pair and keeping a track of the minimum value present                    in the array.Because of this mechanism the time complexity to create the look up table is O(n^2) but once this is done 
+                    the querying time is a constant i.e O(1).
+                    
+2) Square root decomposition method: The array is compressed into a size of root-N if the size of the array is N. The elements of the                         decomposed are sum of the respective ranged sub-array.This method is efficient in sub-array sum problems.The time                         complexity of decomposed array is O(root-n).
+
+3)Segment tree: The array is split into two equal parts in such a way that it follows a strict binary tree. The root node represents the 
+                     entire array where as the leaf nodes represent each indiviual element of the array. This method is best suited for 
+                     range query problems and sub_array sum problems such as finding the min-max elements in a given range. It follows a 
+                     complexity of O(log n) in querying the elements.
